@@ -10,6 +10,7 @@ export function buildViteConfig(options:BuildOptions) {
     const {mode,paths}=options
     const env=loadEnv(mode,process.cwd(),'')
     const isProd=mode==="production"
+    const isDev=mode==="development"
     const minifyOp:MinifyOptions=isProd?'terser':false;
 
     return {
@@ -29,6 +30,7 @@ export function buildViteConfig(options:BuildOptions) {
         },
         define:{
             __APP_ENV__:JSON.stringify(env.APP_ENV__),
+            __IS_DEV__:JSON.stringify(isDev)
         },
         resolve:buildResolvers(paths.root),
         server:{

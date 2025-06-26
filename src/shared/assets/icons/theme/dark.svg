@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+        <style>
+            .theme-bg { fill: #ffffff; }
+            .theme-primary { fill: #2563eb; }
+            .theme-secondary { fill: #64748b; }
+            .theme-accent { fill: #f59e0b; }
+
+            @media (prefers-color-scheme: dark) {
+            .theme-bg { fill: #1f2937; }
+            .theme-primary { fill: #60a5fa; }
+            .theme-secondary { fill: #9ca3af; }
+            .theme-accent { fill: #fbbf24; }
+            }
+        </style>
+    </defs>
+
+    <!-- Background -->
+    <rect width="200" height="200" class="theme-bg" rx="20"/>
+
+    <!-- Main circle -->
+    <circle cx="100" cy="80" r="30" class="theme-primary"/>
+
+    <!-- Secondary elements -->
+    <rect x="70" y="130" width="60" height="20" class="theme-secondary" rx="10"/>
+    <rect x="80" y="160" width="40" height="15" class="theme-secondary" rx="7"/>
+
+    <!-- Accent dots -->
+    <circle cx="50" cy="50" r="8" class="theme-accent"/>
+    <circle cx="150" cy="50" r="8" class="theme-accent"/>
+    <circle cx="50" cy="150" r="8" class="theme-accent"/>
+    <circle cx="150" cy="150" r="8" class="theme-accent"/>
+</svg>

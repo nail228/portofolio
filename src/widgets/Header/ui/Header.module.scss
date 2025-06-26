@@ -1,0 +1,17 @@
+.header{
+  width: 100%;
+  height:var(--header-heght);
+
+  background: var(--inverted-bg-color);
+  color: var(--inverted-primary-color);
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  padding: 20px;
+}
+.mainLink{
+  margin-right: 15px;
+}
+.links{
+  margin-left:auto;
+}

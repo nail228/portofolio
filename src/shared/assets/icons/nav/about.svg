@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="aboutGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#a29bfe"/>
+            <stop offset="100%" style="stop-color:#6c5ce7"/>
+        </linearGradient>
+        <linearGradient id="person1Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#fd79a8"/>
+            <stop offset="100%" style="stop-color:#e84393"/>
+        </linearGradient>
+        <linearGradient id="person2Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#00cec9"/>
+            <stop offset="100%" style="stop-color:#00b894"/>
+        </linearGradient>
+    </defs>
+
+
+    <circle cx="100" cy="100" r="90"  opacity="0.1"/>
+    <circle cx="70" cy="80" r="18" />
+    <circle cx="100" cy="75" r="22" />
+    <circle cx="130" cy="80" r="18"/>
+    <rect x="58" y="95" width="24" height="35"  rx="12"/>
+    <rect x="85" y="93" width="30" height="42"  rx="15"/>
+    <rect x="118" y="95" width="24" height="35"  rx="12"/>
+</svg>
