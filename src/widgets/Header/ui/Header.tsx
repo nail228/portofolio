@@ -1,6 +1,5 @@
 import {classNames} from "@/shared/lib/classNames/classNames.ts";
 import classes from './Header.module.scss'
-import {AppLink} from "@/shared/ui/AppLink/AppLink.tsx";
 import {Modal} from "@/shared/ui/Modal";
 import {useTranslation} from "react-i18next";
 import {useCallback, useState} from "react";
