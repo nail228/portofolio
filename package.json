@@ -2,12 +2,13 @@
   "name": "portoflio_company",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "server": "node jsonServer/index.js",
     "test": "jest"
   },
   "dependencies": {
@@ -33,6 +34,7 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
     "jest": "^30.0.2",
+    "json-server": "^0.17.4",
     "react-router-dom": "^7.6.2",
     "sass-embedded": "^1.89.0",
     "stylelint": "^16.21.0",

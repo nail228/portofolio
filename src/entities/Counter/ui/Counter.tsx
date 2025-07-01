@@ -1,7 +1,6 @@
-import {Button} from "@/shared/ui/Button/Button.tsx";
+import {Button, ButtonTheme} from "@/shared/ui/Button/Button.tsx";
 import {useDispatch, useSelector} from "react-redux";
 import {counterActions} from "../model/slice/counterSlice.ts";
-import {StateSchema} from "@/app/providers/StoreProvider/config/StateSchema.ts";
 import {getCounterValue} from "../model/selectors/getCounterValue/getCounterValue.ts";
 
 
@@ -27,11 +26,13 @@ export const Counter=()=>{
             </h1>
             <Button
                 onClick={increment}
+                theme={ButtonTheme.OUTLINE}
             >
                 +
             </Button>
             <Button
                 onClick={decrement}
+                theme={ButtonTheme.OUTLINE}
             >
                 -
             </Button>
